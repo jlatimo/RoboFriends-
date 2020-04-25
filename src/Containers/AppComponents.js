@@ -4,7 +4,7 @@ import SearchBar from '../Components/SearchBar';
 import Scroll from '../Components/Scroll';
 import ErrorBoundry from '../Components/ErrorBoundry';
 // import { robots } from './robots';
-import './Styles/AppStyles.css';
+import '../Styles/AppStyles.css';
 
 class AppComponents extends Component {
   //Contructor method to initiate state
