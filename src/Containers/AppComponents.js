@@ -3,26 +3,26 @@ import Cardlist from '../Components/Cardlist';
 import SearchBar from '../Components/SearchBar';
 import Scroll from '../Components/Scroll';
 import ErrorBoundry from '../Components/ErrorBoundry';
-// import { robots } from './robots';
-import './Styles/AppStyles.css';
+import { robots } from '../robots';
+import '../Styles/AppStyles.css';
 
 class AppComponents extends Component {
   //Contructor method to initiate state
   constructor() {
     super()
     this.state = {
-      // robots: robots,
-      robots:[],
+      robots: robots,
+      // robots:[],
       searchfield: ''
     }
   }
 
 //ComponenetDidMount fetches external list of users
-componentDidMount() {
-  fetch('https://jsonplaceholder.typicode.com/users')
-  .then(response => response.json())
-  .then(users => this.setState({robots:users}));
-}
+// componentDidMount() {
+//   fetch('https://jsonplaceholder.typicode.com/users')
+//   .then(response => response.json())
+//   .then(users => this.setState({robots:users}));
+// }
 
 //OnSearch sets state of 
   onSearchChange = (event) =>{

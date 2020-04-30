@@ -55,9 +55,9 @@ export const robots = [
   },
   {
     id: 10,
-    name: 'Clementina DuBuque',
-    username: 'Moriah.Stanton',
-    email: 'Rey.Padberg@karina.biz'
+    name: 'James Latimore',
+    username: 'Jam.Lat',
+    email: 'jamlat@yahoo.com'
   },
   {
     id: 11,
