@@ -3,7 +3,11 @@ import Cardlist from '../Components/Cardlist';
 import SearchBar from '../Components/SearchBar';
 import Scroll from '../Components/Scroll';
 import ErrorBoundry from '../Components/ErrorBoundry';
+<<<<<<< HEAD
 import { robots } from '../robots';
+=======
+// import { robots } from './robots';
+>>>>>>> 0ef698ffc30e1a4a4c3b0944e7dd4deef913cc31
 import '../Styles/AppStyles.css';
 
 class AppComponents extends Component {
